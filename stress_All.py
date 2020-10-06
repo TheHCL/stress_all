@@ -435,7 +435,6 @@ if run_mode == "wb":
 
 if run_mode == "cb":
 	if amd =="y":
-		file_delay_time.close()
 		count_down_time=input("Count Down time before test : ")
 		sleep_time=input("Sleep & suspend time : ")
 		cycles =input("Cycles : ")
